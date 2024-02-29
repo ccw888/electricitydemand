@@ -3,7 +3,7 @@
 This project demonstrates the process of performing a time series forecast on electricity generation data using the ARIMA (AutoRegressive Integrated Moving Average) and SARIMA model. Both are suitable for time series data exhibiting non-stationarity, where differencing can be applied to remove trend or seasonal structures.
 
 ## Procedure
-1. Initial Analysis: Conduct a brief analysis to determine the stationarity of the series and identify appropriate parameters for the ARIMA model.
+1. Initial Analysis: Conduct a brief analysis to determine the stationarity of the series and identify appropriate parameters for the model.
 2. Stationarity Check: Use the Augmented Dickey-Fuller (ADF) test to assess stationarity. If necessary, apply differencing to achieve stationarity.
 3. Parameter Identification: Identify the differencing order (d) and autoregressive (p) and moving average (q) parameters using the autocorrelation function (ACF) and partial autocorrelation function (PACF) plots.
 4. Model Fitting: Fit an ARIMA/SARIMA model with the determined parameters to the data.
